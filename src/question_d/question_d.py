@@ -1,4 +1,8 @@
 #write functions here, don't add input('') statements here!
+def test_config():
+    return True
+
+
 def get_assessment_value(value):
     assess = value * 0.6
     return assess

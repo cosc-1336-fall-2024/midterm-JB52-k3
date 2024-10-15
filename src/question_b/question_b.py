@@ -1,3 +1,6 @@
 #write functions here, don't add input('') statements here!
-def get_fahrenheit(celsius)
-    
+def test_config():
+    return True
+
+def get_fahrenheit(celsius):
+    return (celsius * 9/5) + 32

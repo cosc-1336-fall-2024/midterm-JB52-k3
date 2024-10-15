@@ -1,4 +1,8 @@
 #write functions here, don't add input('') statements here!
+def test_config():
+    return True
+
+
 def get_bonus_pay_amount(sales):
     if(0 <= sales and sales < 500): return round(sales * 0.05, 2)
     elif(500 <= sales and sales < 1000): return round(sales * 0.06, 2)
