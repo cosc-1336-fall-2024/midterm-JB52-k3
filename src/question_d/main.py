@@ -1,8 +1,7 @@
 import question_d
 
 def main():
-    print('How much is your property tax?!')
-    prompt = int(input ('Enter the assessment value on your property. '))
+    prompt = int(input ('Enter the actual value of your property. '))
     assess = question_d.get_assessment_value(prompt)
     tax = question_d.get_tax_assessed(assess)
     print(f'Your assessment value is ${assess} and your taxes owed are ${tax}.')
